@@ -1,7 +1,16 @@
+# Download this combat_analysis.R file.
+# Open RStudio or R console.
+# source the download file with users path where user copied this file.
+# source("combat_analysis.R")
+#Usage: combat_analysis(file1=<filename>,file2=<filename>,outFileName = <output of file name>)
+
+
 # Combat Analysis 
 # This analysis takes two inputs having data from microaray o rnaseq or any expression dataset with different batches.
 # As two datasets are coming from different batches, PCA analysis is also carried to check any outlier in the dataset.
 # Followed by need to remove the batch effects using SVA package after combining the two datasets(with equal nuber of gene names should match)
+
+
 
 rm(list=ls()) 
 
