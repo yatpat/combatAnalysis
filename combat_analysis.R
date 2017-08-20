@@ -1,7 +1,7 @@
 # Combat Analysis 
 # This analysis takes two inputs having data from microaray o rnaseq or any expression dataset with different batches.
-# As two datasets ae coming from different batches, PCA analysis is also carried to check any outlier in the dataset.
-# Follwod by need to remove the batch effects using SVA package after combining the two datasets(with equal nuber of gene names should match)
+# As two datasets are coming from different batches, PCA analysis is also carried to check any outlier in the dataset.
+# Followed by need to remove the batch effects using SVA package after combining the two datasets(with equal nuber of gene names should match)
 
 rm(list=ls()) 
 
