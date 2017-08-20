@@ -14,7 +14,7 @@ outDir <- paste0(wdDir,"/combat_output/")
 dir.create(outDir, showWarnings = FALSE)
 
 
-### Reading two different batch effect files (e.g from microarray and  or  )
+### Reading two different batch effect files (e.g from microarray and RNAseq or different batches from RNAseq expresion data)
 
 processFile1 = file1
 filename1 = unlist(strsplit(processFile1,".txt"))
